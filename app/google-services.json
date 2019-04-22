@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "849355573840",
+    "firebase_url": "https://sandyappcha.firebaseio.com",
+    "project_id": "sandyappcha",
+    "storage_bucket": "sandyappcha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849355573840:android:20a757ab6baae176",
+        "android_client_info": {
+          "package_name": "com.example.abc.presentervideoplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849355573840-bsnpad4a2srcqjeomedpv9hhktvm0sc8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abc.presentervideoplayer",
+            "certificate_hash": "6d2905be45aff3c1de02e215ed303d7ad04395f7"
+          }
+        },
+        {
+          "client_id": "849355573840-gs3q4r18e1r8fqch4044cntjo64bb7ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyPaAFdouqNHpErb7KYBxTjN2A9PAz_90"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849355573840-gs3q4r18e1r8fqch4044cntjo64bb7ht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

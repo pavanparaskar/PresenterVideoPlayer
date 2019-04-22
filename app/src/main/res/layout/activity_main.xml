@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!--  <VideoView
+          android:id="@+id/imv"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          />
+  -->
+    <VideoView
+        android:id="@+id/videoView1a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/testView1"
+            android:layout_width="match_parent"
+            android:layout_height="28sp"
+            android:background="#ffccff"
+            android:gravity="center"
+            android:text="hello"
+            android:textSize="15sp" />
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:id="@+id/placeholder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/ic_launcher_foreground"></FrameLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>
